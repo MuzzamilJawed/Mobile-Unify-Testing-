@@ -2,80 +2,194 @@
   {
     "id": "Q3zydi7uPS56p27jmImbR",
     "name": "Screen",
-    "icon": "FaGripHorizontal",
-    "path": "0",
+    "type": "10001",
     "attributes": {
-      "name": "Constraint Layout",
-      "layoutProperties": {
-        "orientation": "vertical",
-        "layout_width": "match_parent",
-        "layout_height": "wrap_content",
-        "statusBarColor": "#093959",
-        "background": "#F8F8F8",
-        "navBarColor": "#093959",
-        "hideNavbar": true,
-        "cornerRadius": [0, 0, 0, 0]
-      },
-      "componentId": ["wNYHSmgoNPR-pztYUDG8s"]
-    },
-    "group": "Layout",
-    "type": "CONSTRAINT",
-    "status": "ACTIVE",
-    "updatedAt": "2/27/2023",
-    "createdAt": "2/27/2023",
-    "events": [],
-    "order": 1,
-    "version": "1.0.0",
-    "isLatest": true,
-    "component": { "content": "Constraint Layout", "type": "CONSTRAINT" },
-    "gridProps": [
-      {
-        "id": "wNYHSmgoNPR-pztYUDG8s",
-        "status": "ACTIVE",
-        "_id": "61dec753077814a0f374d9f6",
-        "name": "Button",
-        "attributes": {
-          "name": "Button",
-          "layoutProperties": {
-            "layout_width": "match_parent",
-            "layout_height": "40",
-            "layout_marginLeft": 0,
-            "layout_marginRight": 0,
-            "layout_marginTop": 0,
-            "layout_marginBottom": 0,
-            "text": "Start Now",
-            "textSize": 10,
-            "textColor": "#000000",
-            "textStyle": "bold",
-            "textAlignment": "center",
-            "cornerRadius": [0, 0, 0, 0],
-            "background": "#9BB93B",
-            "clickable": true
-          }
+      "gridProps": [
+        {
+          "componentId": "EudrqdqOPMGrAHrUCVu1r",
+          "componentType": "10001",
+          "id": "EudrqdqOPMGrAHrUCVu1r",
+          "position": {
+            "i": "EudrqdqOPMGrAHrUCVu1r",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
         },
-        "icon": "FaBimobject",
-        "group": "Form",
+        {
+          "layoutProperties": {},
+          "componentId": "wNYHSmgoNPR-pztYUDG8s",
+          "componentType": "BUTTON",
+          "order": 1
+        }
+      ]
+    },
+    "layout": [
+      {
+        "id": "EudrqdqOPMGrAHrUCVu1r",
+        "status": "ACTIVE",
+        "_id": "610134a1d1f5e860b1e8c751",
+        "name": "Grid layout",
+        "icon": "FaGripHorizontal",
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "padding": "5px",
+              "spacing": 0
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "Grid layout"
+        },
+        "group": "Layout",
         "type": "sidebarItem",
-        "updatedAt": "23-Aug-2021",
-        "createdAt": "23-Aug-2021",
-        "order": 20,
+        "updatedAt": "23-Sep-2021",
+        "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
+        "createdAt": "24-Aug-2021",
+        "events": [],
+        "order": 1,
         "version": "1.0.0",
         "isLatest": true,
-        "projectType": "mobile",
-        "component": { "content": "Button", "type": "BUTTON" },
-        "events": [],
-        "path": "0-0"
-      }
-    ],
-    "subType": "screen",
-    "layout": [
+        "projectType": "web",
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "component": { "content": "Grid layout", "type": "10001" },
+        "path": 0,
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "yCaA0P7PgQxIey4-KPRYA",
+            "gridProps": [
+              {
+                "id": "yVJs9qoBVp6lJ3pa2y7_V",
+                "status": "ACTIVE",
+                "name": "Text Box",
+                "attributes": {
+                  "label": "",
+                  "name": "Text box",
+                  "label-locale-key": "",
+                  "maxLength": 20,
+                  "type": "text",
+                  "variant": "standard",
+                  "value": "",
+                  "readOnly": false,
+                  "tooltip": "",
+                  "font-family": "Verdana",
+                  "mandatory": true,
+                  "tooltipState": "",
+                  "layoutProperties": {
+                    "textField": {
+                      "//": "Use this class to style text field component."
+                    },
+                    "inputProps": {
+                      "//": "Use this class to style  text field element."
+                    },
+                    "mainContainer": "textField",
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  },
+                  "validate": {
+                    "required": false,
+                    "errorMsg": "This field is required"
+                  },
+                  "placeholder": "",
+                  "stateName": "t1"
+                },
+                "icon": "FaWindowMinimize",
+                "group": "Form",
+                "type": "20004",
+                "Documentation": "<div>components 12344</div>",
+                "updatedAt": "23-Aug-2021",
+                "createdAt": "23-Aug-2021",
+                "order": 20,
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "web",
+                "component": { "content": "Text Box", "type": "20004" },
+                "events": [],
+                "path": "0-0-0"
+              },
+              {
+                "id": "5AkdKswZ5r2xUylOGnrwI",
+                "status": "ACTIVE",
+                "attributes": {
+                  "label": "Button",
+                  "variant": "contained",
+                  "name": "Button",
+                  "label-locale-key": "",
+                  "fullWidth": true,
+                  "layoutProperties": {
+                    "button": {
+                      "//": "Use this class to style button component."
+                    },
+                    "inputProps": {
+                      "//": "Use this class to style button element."
+                    },
+                    "mainContainer": "button",
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  }
+                },
+                "name": "Button",
+                "icon": "FaBimobject",
+                "group": "Form",
+                "type": "20006",
+                "Documentation": "<div>components 12344</div>",
+                "updatedAt": "23-Aug-2021",
+                "createdAt": "23-Aug-2021",
+                "order": 1,
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "web",
+                "component": { "content": "Button", "type": "20006" },
+                "events": [
+                  {
+                    "triggerId": "C9VAY5AImRfVpeNy7pz65",
+                    "triggerName": "Clear Form Data",
+                    "serviceType": "14",
+                    "attributes": {},
+                    "type": "4",
+                    "name": "On Submit"
+                  }
+                ],
+                "path": "0-0-1"
+              }
+            ],
+            "layoutProperties": {
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 12,
+              "xs": 12
+            },
+            "path": "0-0"
+          }
+        ],
+        "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+      },
       {
         "id": "Q3zydi7uPS56p27jmImbR",
         "name": "Screen",
         "icon": "FaGripHorizontal",
         "path": "0",
         "attributes": {
-          "name": "Constraint Layout",
+          "name": "Screen",
           "layoutProperties": {
             "orientation": "vertical",
             "layout_width": "match_parent",
@@ -102,7 +216,6 @@
           {
             "id": "wNYHSmgoNPR-pztYUDG8s",
             "status": "ACTIVE",
-            "_id": "61dec753077814a0f374d9f6",
             "name": "Button",
             "attributes": {
               "name": "Button",
@@ -125,7 +238,7 @@
             },
             "icon": "FaBimobject",
             "group": "Form",
-            "type": "sidebarItem",
+            "type": "BUTTON",
             "updatedAt": "23-Aug-2021",
             "createdAt": "23-Aug-2021",
             "order": 20,
@@ -140,10 +253,171 @@
         "subType": "screen"
       }
     ],
-    "projectId": "63fcc2e16a69dc557420ee68",
+    "events": [],
+    "subType": "screen",
+    "screenId": "Q3zydi7uPS56p27jmImbR",
+    "projectId": "63fcc37f6a69dc557420ef42",
+    "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "Q3zydi7uPS56p27jmImbR",
     "createdBy": "muzzamil",
+    "updatedAt": "2/28/2023",
+    "createdAt": "2/28/2023",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "EudrqdqOPMGrAHrUCVu1r",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "yVJs9qoBVp6lJ3pa2y7_V",
+          "componentType": "20004",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "5AkdKswZ5r2xUylOGnrwI",
+          "componentType": "20006",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "Q3zydi7uPS56p27jmImbR",
+    "projectId": "63fcc37f6a69dc557420ef42",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "yVJs9qoBVp6lJ3pa2y7_V",
+    "status": "ACTIVE",
+    "name": "Text Box",
+    "attributes": {
+      "label": "",
+      "name": "Text box",
+      "label-locale-key": "",
+      "maxLength": 20,
+      "type": "text",
+      "variant": "standard",
+      "value": "",
+      "readOnly": false,
+      "tooltip": "",
+      "font-family": "Verdana",
+      "mandatory": true,
+      "tooltipState": "",
+      "layoutProperties": {
+        "textField": { "//": "Use this class to style text field component." },
+        "inputProps": { "//": "Use this class to style  text field element." },
+        "mainContainer": "textField",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "validate": { "required": false, "errorMsg": "This field is required" },
+      "placeholder": "",
+      "stateName": "t1"
+    },
+    "icon": "FaWindowMinimize",
+    "group": "Form",
+    "type": "20004",
+    "Documentation": "<div>components 12344</div>",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 20,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Text Box", "type": "20004" },
+    "events": [],
+    "path": "0-0-0",
+    "screenId": "Q3zydi7uPS56p27jmImbR",
+    "subType": "component",
+    "projectId": "63fcc37f6a69dc557420ef42",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "5AkdKswZ5r2xUylOGnrwI",
+    "status": "ACTIVE",
+    "attributes": {
+      "label": "Button",
+      "variant": "contained",
+      "name": "Button",
+      "label-locale-key": "",
+      "fullWidth": true,
+      "layoutProperties": {
+        "button": { "//": "Use this class to style button component." },
+        "inputProps": { "//": "Use this class to style button element." },
+        "mainContainer": "button",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      }
+    },
+    "name": "Button",
+    "icon": "FaBimobject",
+    "group": "Form",
+    "type": "20006",
+    "Documentation": "<div>components 12344</div>",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 1,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Button", "type": "20006" },
+    "events": [
+      {
+        "triggerId": "C9VAY5AImRfVpeNy7pz65",
+        "triggerName": "Clear Form Data",
+        "name": "On Submit",
+        "type": "4",
+        "serviceType": "14"
+      }
+    ],
+    "path": "0-0-1",
+    "screenId": "Q3zydi7uPS56p27jmImbR",
+    "subType": "component",
+    "projectId": "63fcc37f6a69dc557420ef42",
+    "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -181,8 +455,9 @@
     "component": { "content": "Button", "type": "BUTTON" },
     "events": [],
     "path": "0-0",
+    "screenId": "Q3zydi7uPS56p27jmImbR",
     "subType": "component",
-    "projectId": "63fcc2e16a69dc557420ee68",
+    "projectId": "63fcc37f6a69dc557420ef42",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   }
