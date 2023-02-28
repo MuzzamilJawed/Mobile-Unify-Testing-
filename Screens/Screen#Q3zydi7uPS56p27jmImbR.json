@@ -50,7 +50,7 @@
             "alignItems": "flex-start"
           },
           "direction": "row",
-          "name": "Grid layout"
+          "name": "Screen"
         },
         "group": "Layout",
         "type": "sidebarItem",
@@ -102,8 +102,9 @@
                     "xs": 12
                   },
                   "validate": {
-                    "required": false,
-                    "errorMsg": "This field is required"
+                    "required": true,
+                    "errorMsg": "This field is required",
+                    "bindButton": "5AkdKswZ5r2xUylOGnrwI"
                   },
                   "placeholder": "",
                   "stateName": "t1"
@@ -311,7 +312,7 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Screen"
     },
     "layout": null,
     "events": [],
@@ -349,7 +350,11 @@
         "sm": 12,
         "xs": 12
       },
-      "validate": { "required": false, "errorMsg": "This field is required" },
+      "validate": {
+        "required": true,
+        "errorMsg": "This field is required",
+        "bindButton": "5AkdKswZ5r2xUylOGnrwI"
+      },
       "placeholder": "",
       "stateName": "t1"
     },
