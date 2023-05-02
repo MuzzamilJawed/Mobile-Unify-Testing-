@@ -1,0 +1,38 @@
+{
+  "id": "Vz4OvvYfxxYcHJ9anEoQG",
+  "_id": "ESb3kBH5zjml42bQhI4Yo",
+  "projectId": "63fde7b4f8a87c2b1c8d4f3d",
+  "gitBranchName": "master",
+  "name": "Get Data",
+  "old_name": "Get Data",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "5",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "data",
+          "url": "posts",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {},
+          "requestBody": [],
+          "baseURL": "641443e552528b4d480ef277",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "updatedAt": "3/17/2023",
+  "createdAt": "3/17/2023",
+  "createdBy": "muzzamil",
+  "updatedBy": "muzzamil"
+}
